@@ -92,6 +92,7 @@ fn render(lang: demo::Lang, wit: &str, files: &mut Files, options: &demo::Option
             let mut opts = wit_bindgen_gen_host_js::Opts::default();
             opts.instantiation = options.js_instantiation;
             opts.compat = options.js_compat;
+            opts.valid_binary_optimization = true;
             gen_component(opts.build()?, files)?
         }
     }

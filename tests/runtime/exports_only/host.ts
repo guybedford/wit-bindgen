@@ -1,4 +1,4 @@
-// Flags: --valid-lifting-optimization --base64-cutoff=0
+// Flags: --valid-binary-optimization --base64-cutoff=0
 // @ts-ignore
 import { ok, strictEqual } from 'assert';
 // @ts-ignore
